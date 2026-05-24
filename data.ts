@@ -21,11 +21,11 @@ var NABIDKA_KONZOLI = [
     { id: 15, typ: "domaci", nazev: "Původní Xbox", vyrobce: "Microsoft", cena: 4200, region: "PAL", ovladace: 1, foto: "xbox.png" },
 
     // --- SEGA ---
-    { id: 16, typ: "domaci", nazev: "Sega Dreamcast", vyrobce: "Sega", cena: 5900, region: "NTSC-J", ovladace: 1, foto: "dreamcast.png" },
-    { id: 17, typ: "domaci", nazev: "Sega Mega Drive II", vyrobce: "Sega", cena: 2100, region: "PAL", ovladace: 2, foto: "megadrive.png" },
-    { id: 18, typ: "handheld", nazev: "Sega Game Gear", vyrobce: "Sega", cena: 4500, region: "PAL", stav: "Po repasi", foto: "gamegear.png" },
-    { id: 19, typ: "domaci", nazev: "Sega Saturn", vyrobce: "Sega", cena: 5500, region: "NTSC-J", ovladace: 1, foto: "saturn.png" },
+    { id: 16, typ: "domaci", nazev: "Dreamcast", vyrobce: "Sega", cena: 5900, region: "NTSC-J", ovladace: 1, foto: "dreamcast.png" },
+    { id: 17, typ: "domaci", nazev: "Mega Drive II", vyrobce: "Sega", cena: 2100, region: "PAL", ovladace: 2, foto: "megadrive.png" },
+    { id: 18, typ: "handheld", nazev: "Game Gear", vyrobce: "Sega", cena: 4500, region: "PAL", stav: "Po repasi", foto: "gamegear.png" },
+    { id: 19, typ: "domaci", nazev: "Saturn", vyrobce: "Sega", cena: 5500, region: "NTSC-J", ovladace: 1, foto: "saturn.png" },
 
     // --- OSTATNÍ ---
-    { id: 20, typ: "domaci", nazev: "Atari 2600", vyrobce: "Atari", cena: 3000, region: "PAL", ovladace: 2, foto: "atari2600.png" }
+    { id: 20, typ: "domaci", nazev: "Atari 2600", vyrobce: "Atari", cena: 4600, region: "PAL", ovladace: 2, foto: "atari2600.png" },
 ];
