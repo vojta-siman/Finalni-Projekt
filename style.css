@@ -227,3 +227,181 @@ nav {
     border: 2px solid var(--accent-color);
     transition: transform 0.3s;
 }
+
+/* --- STYLY PRO STRÁNKU KOŠÍKU --- */
+
+.cart-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.cart-container h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ff007f; /* Tvoje neonově růžová */
+    padding-bottom: 10px;
+}
+
+/* Rozvržení vedle sebe */
+.cart-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Levý sloupec - Seznam zboží */
+.cart-items-list {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Karta jednoho produktu v košíku */
+.cart-item-card {
+    display: flex;
+    align-items: center;
+    background-color: #1a1c2e; /* Tmavé pozadí karet, co už používáš */
+    border-radius: 8px;
+    padding: 15px;
+    gap: 20px;
+    position: relative;
+}
+
+.cart-item-img img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    background: #fff; /* Bílé pozadí pod produkt, pokud je průhledný */
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.cart-item-details {
+    flex: 1;
+}
+
+.cart-item-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+}
+
+.cart-item-spec {
+    margin: 0;
+    color: #a0a5c1;
+    font-size: 0.9rem;
+}
+
+.cart-item-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff007f; /* Růžová cena */
+    margin-right: 20px;
+}
+
+/* Tlačítko pro smazání položky (Křížek) */
+.remove-item-btn {
+    background: none;
+    border: none;
+    color: #a0a5c1;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0 10px;
+}
+
+.remove-item-btn:hover {
+    color: #ff007f; /* Při najetí zčervená/zrůžoví */
+}
+
+/* Pravý sloupec - Pokladna/Shrnutí */
+.cart-summary-box {
+    flex: 1;
+    background-color: #1a1c2e;
+    border-radius: 8px;
+    padding: 25px;
+    border: 1px solid #333;
+}
+
+.cart-summary-box h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    color: #cbd5e1;
+}
+
+.summary-divider {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 15px 0;
+}
+
+.total-row {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.total-row strong {
+    color: #ff007f;
+}
+
+/* Tlačítka v pravém panelu */
+.btn-checkout {
+    display: block;
+    width: 100%;
+    background-color: #28a745; /* Tvoje zelená */
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.2s;
+}
+
+.btn-checkout:hover {
+    background-color: #218838;
+}
+
+.btn-continue-shopping {
+    display: block;
+    text-align: center;
+    color: #a0a5c1;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+.btn-continue-shopping:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responzivita pro mobilní telefony */
+@media (max-width: 768px) {
+    .cart-wrapper {
+        flex-direction: column;
+    }
+    .cart-item-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cart-item-price {
+        margin-right: 0;
+    }
+    .remove-item-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}

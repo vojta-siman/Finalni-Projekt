@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Košík | Retro Gaming Vault</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <nav class="main-nav">
+        <a href="index.html" class="nav-logo">Retro Gaming Vault</a>
+        <div class="nav-links">
+            <a href="index.html">Domů</a>
+            <a href="index4.html" class="active">🛒 Košík</a>
+        </div>
+    </nav>
+
+    <main class="cart-container">
+        <h1>Tvůj nákupní košík</h1>
+
+        <div class="cart-wrapper">
+            
+            <div class="cart-items-list" id="cart-items-container"></div>
+
+            <aside class="cart-summary-box">
+                <h2>Shrnutí nákupu</h2>
+                <div class="summary-row">
+                    <span>Mezisoučet:</span>
+                    <span id="summary-subtotal">0 Kč</span>
+                </div>
+                
+                <div class="summary-row">
+                    <span>Marže (5 %):</span>
+                    <span id="summary-margin">0 Kč</span>
+                </div>
+
+                <div class="summary-row">
+                    <span>Doprava:</span>
+                    <span style="color: #28a745;">ZDARMA</span>
+                </div>
+                <hr class="summary-divider">
+                <div class="summary-row total-row">
+                    <span>Celkem vč. DPH:</span>
+                    <strong id="cart-total-price">0 Kč</strong>
+                </div>
+                
+                <button class="btn-checkout">Pokračovat k objednávce</button>
+                <a href="index.html" class="btn-continue-shopping">← Zpět do obchodu</a>
+            </aside>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
