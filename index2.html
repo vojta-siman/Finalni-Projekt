@@ -1,6 +1,6 @@
 <!-- Domácí konzole -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <img src="obrazky/logo.png" class="background-logo" alt="Retro Vault Background Logo">
+    <img src="obrazky/logo.png" class="background-logo" alt="Retro Vault Background Logo">
+    
+    <nav class="main-nav">
+        <div class="nav-links">
+            <a href="index.html" class="nav-logo">Retro Gaming Vault</a>
+        </div>
+        
+        <a href="index4.html" class="cart-nav-btn">🛒 Košík</a>
+    </nav>
+
     <div class="container">
         <header>
             <h1>Retro Gaming Vault</h1>
@@ -20,6 +29,7 @@
         </nav>
 
         <h2>Katalog domácích konzolí</h2>
+        
         <div id="domestic-list" class="product-grid">
             <div class="console-card">
                 <div class="console-img">Obrázek konzole</div>
@@ -31,7 +41,8 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+
     <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

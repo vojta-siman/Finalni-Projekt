@@ -33,14 +33,6 @@ var NABIDKA_KONZOLI = [
     { id: 21, typ: "domaci", nazev: "PlayStation 5", vyrobce: "Sony", cena: 18500, region: "Standard", ovladace: 1, foto: "ps5.png" },
     { id: 22, typ: "domaci", nazev: "Xbox Series X", vyrobce: "Microsoft", cena: 12400, region: "Standard", ovladace: 2, foto: 
         "xboxsx.png" },
-    { id: 23, typ: "domaci", nazev: "Nintendo 64", vyrobce: "Nintendo", cena: 3200, region: "PAL", ovladace: 1, foto: "n64.png" },
-    { id: 24, typ: "domaci", nazev: "NES (Nintendo Entertainment System)", vyrobce: "Nintendo", cena: 4100, region: "NTSC-U", ovladace: 2, foto: "nes.png" },
-    { id: 25, typ: "domaci", nazev: "PlayStation 4", vyrobce: "Sony", cena: 5500, region: "Standard", ovladace: 1, foto: "ps4.png" },
-    { id: 26, typ: "domaci", nazev: "Xbox One X", vyrobce: "Microsoft", cena: 4800, region: "Standard", ovladace: 1, foto: "xboxonex.png" },
-    { id: 27, typ: "domaci", nazev: "Sega Master System", vyrobce: "Sega", cena: 2900, region: "PAL", ovladace: 2, foto: "mastersystem.png" },
-    { id: 28, typ: "domaci", nazev: "Panasonic 3DO FZ-1", vyrobce: "Panasonic", cena: 7200, region: "NTSC-U", ovladace: 1, foto: "3do.png" },
-    { id: 29, typ: "domaci", nazev: "Neo Geo AES", vyrobce: "SNK", cena: 14900, region: "NTSC-J", ovladace: 1, foto: "neogeo.png" },
-    { id: 30, typ: "domaci", nazev: "Amiga CD32", vyrobce: "Commodore", cena: 8900, region: "PAL", ovladace: 1, foto: "amigacd32.png" },
 
     // --- NOVÉ HANDHELDY / KAPESNÍ KONZOLE (10 ks) ---
     { id: 31, typ: "handheld", nazev: "Switch OLED", vyrobce: "Nintendo", cena: 7800, region: "Standard", stav: "Jako nový", foto: "switch_oled.png" },
